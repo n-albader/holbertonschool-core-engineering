@@ -13,17 +13,17 @@ class Animal(ABC):
         """Return the sound made by the animal"""
         pass
 
-    class Dog(Animal):
-        """Represent a dog"""
+class Dog(Animal):
+    """Represent a dog"""
 
-        def sound(self):
-            """Return the sound made by a dog"""
-            return "Bark"
+    def sound(self):
+        """Return the sound made by a dog"""
+        return "Bark"
 
 
-    class Cat(Animal):
-        "Represent a cat"
+class Cat(Animal):
+    "Represent a cat"
 
-        def sound(self):
-            """Return the sound made by a cat"""
-            return "Meow"
+    def sound(self):
+        """Return the sound made by a cat"""
+        return "Meow"
