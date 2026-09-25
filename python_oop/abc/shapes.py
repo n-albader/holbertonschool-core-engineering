@@ -31,7 +31,7 @@ class Circle(Shape):
         """Return the area of the circle"""
         return math.pi * self.radius ** 2
 
-    def Perimeter(self):
+    def perimeter(self):
         """Return the area of the circle"""
         return 2 * math.pi * self.radius
 
@@ -56,4 +56,4 @@ class Rectangle(Shape):
 def shape_info(shape):
     """Print the area and perimeter of a shape"""
     print("Area: {}".format(shape.area()))
-    print("perimeter: {}".format(shape.perimeter()))
+    print("Perimeter: {}".format(shape.perimeter()))
