@@ -22,7 +22,7 @@ class VerboseList(list):
         print("Remove [{}] from the list.".format(item))
         super().remove(item)
 
-    def pop(self, index=1):
+    def pop(self, index=-1):
         """Remove and retern an item with a notification"""
         item = self[index]
         print("Popped [{}] from the list.".format(item))
